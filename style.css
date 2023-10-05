@@ -1,0 +1,38 @@
+.rojan{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.blue{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 59px;
+    align-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.one, .two {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img {
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+}
