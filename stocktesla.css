@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.topgear.com/sites/default/files/2023/05/Tesla%20Model%202.jpg') no-repeat center center fixed;
+    background-size:auto;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+}
+
+main {
+    text-align: center;
+}
+
+#stock-price {
+    font-size: 5em;
+    margin: 15px 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: rgb(253, 252, 252);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease-in-out;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
